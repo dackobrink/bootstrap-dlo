@@ -1,0 +1,82 @@
+/*
+ * Start Bootstrap - Business Frontpage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+ @font-face {
+     font-family: 'latoregular';
+     src: url('lato-regular-webfont.woff2') format('woff2'),
+          url('lato-regular-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+
+ }
+
+
+ @font-face {
+     font-family: 'latoblack';
+     src: url('lato-black-webfont.woff2') format('woff2'),
+          url('lato-black-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+
+ }
+
+
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+
+}
+h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 400px;
+    background: url('../images/hero1.png') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.title {
+    color: #0097D2;
+    text-align: center;
+    padding-top: 100px;
+    
+
+
+}
+.tagline {
+    color: #B2B2B2;
+    text-decoration: underline;
+    text-decoration-color: #0097D2;
+    font-weight:lighter;
+}
+
+.subhead {
+  text-align: center;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
